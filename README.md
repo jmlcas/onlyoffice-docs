@@ -1,5 +1,5 @@
-# onlyoffice-document-server
-OnlyOffice Document Server - Docker compose
+# onlyoffice-docs
+OnlyOffice Document Server - ONLYOFFICE - Docker compose
 
 Ver en "localhost:8000"
 
