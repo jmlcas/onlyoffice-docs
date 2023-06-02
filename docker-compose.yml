@@ -16,8 +16,8 @@ services:
       - DB_USER=onlyoffice
       - AMQP_URI=amqp://guest:guest@onlyoffice-rabbitmq
       # Uncomment strings below to enable the JSON Web Token validation.
-      - JWT_ENABLED=false
-      #- JWT_SECRET=secret
+      - JWT_ENABLED=true
+      - JWT_SECRET=my_jwt_secret
       #- JWT_HEADER=Authorization
       #- JWT_IN_BODY=true
     ports:
