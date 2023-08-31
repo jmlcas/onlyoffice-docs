@@ -9,6 +9,6 @@ Para conectar con: Filerun, NextCloud, OwnCloud, Seafile, etc.
 
 Dirección de ONLYOFFICE Docs: http://IP:8000 ó https://dominio.com
 
-Clave secreta: my_jwt_secret
+
 
 
