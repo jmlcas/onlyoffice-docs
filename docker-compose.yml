@@ -9,7 +9,7 @@ services:
     stdin_open: true
     tty: true    
     ports:
-      - '8500:80'
+      - '8000:80'
       - '8543:443'
     volumes:
       - ./onlyoffice/data:/var/www/onlyoffice/Data   
