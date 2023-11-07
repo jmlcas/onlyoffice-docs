@@ -12,10 +12,13 @@ services:
       - '8000:80'
       - '8543:443'
     volumes:
-      - ./onlyoffice/data:/var/www/onlyoffice/Data   
+      - ./onlyoffice/Docs/logs:/var/log/onlyoffice
+      - ./onlyoffice/Docs/data:/var/www/onlyoffice/Data
+      - ./onlyoffice/Docs/lib:/var/lib/onlyoffice
+      - ./onlyoffice/Docs/db:/var/lib/postgresql      
     environment:
       - JWT_ENABLED=true
       - JWT_SECRET=my_secret
       - JWT_HEADER=Authorization
       - JWT_IN_BODY=true
-    stop_grace_period: 60s
+
