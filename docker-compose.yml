@@ -1,5 +1,3 @@
-version: '3.3'
-
 services:
 
   onlyoffice-docs:
@@ -14,11 +12,11 @@ services:
     volumes:
       - ./onlyoffice/Docs/logs:/var/log/onlyoffice
       - ./onlyoffice/Docs/data:/var/www/onlyoffice/Data
-      - ./onlyoffice/Docs/lib:/var/lib/onlyoffice
-      - ./onlyoffice/Docs/db:/var/lib/postgresql      
-    environment:
-      - JWT_ENABLED=true
-      - JWT_SECRET=my_secret
-      - JWT_HEADER=Authorization
-      - JWT_IN_BODY=true
+#      - ./onlyoffice/Docs/lib:/var/lib/onlyoffice
+#      - ./onlyoffice/Docs/db:/var/lib/postgresql      
+#    environment:
+#      - JWT_ENABLED=true
+#      - JWT_SECRET=my_secret
+#      - JWT_HEADER=Authorization
+#      - JWT_IN_BODY=true
 
