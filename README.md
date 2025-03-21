@@ -1,6 +1,6 @@
 # OnlyOffice-Docs
 
-Ver en "localhost:8000"
+Ver en "http://localhost:8000"
 
 Si ves el sitio web, es que funciona bien. No hay que hacer nada más
 
