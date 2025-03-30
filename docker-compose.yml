@@ -1,7 +1,7 @@
 services:
 
   onlyoffice-docs:
-    image: onlyoffice/documentserver:8.1.3.2  #latest-arm64 (para Raspberry Pi)
+    image: onlyoffice/documentserver:latest  #latest-arm64 (para Raspberry Pi)
     container_name: onlyoffice-docs
     restart: unless-stopped
     stdin_open: true
