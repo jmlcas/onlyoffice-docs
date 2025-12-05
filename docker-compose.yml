@@ -1,11 +1,11 @@
 services:
 
   onlyoffice-docs:
-    image: onlyoffice/documentserver:latest  #latest-arm64 (para Raspberry Pi)
+    image: onlyoffice/documentserver:latest
     container_name: onlyoffice-docs
     restart: unless-stopped
     stdin_open: true
-    tty: true    
+    tty: true
     ports:
       - "8000:80"
       - "8543:443"
@@ -13,7 +13,7 @@ services:
       - ./onlyoffice/Docs/logs:/var/log/onlyoffice
       - ./onlyoffice/Docs/data:/var/www/onlyoffice/Data
       - ./onlyoffice/Docs/lib:/var/lib/onlyoffice
-      - ./onlyoffice/Docs/db:/var/lib/postgresql      
+      - ./onlyoffice/Docs/db:/var/lib/postgresql
     environment:
       - JWT_ENABLED=true
       - JWT_SECRET=my_secret
