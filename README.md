@@ -6,4 +6,4 @@ Dirección de ONLYOFFICE-Docs: "http://localhost:8000" ó "http://IP:8000" ó "h
 
 Si ves el sitio web, es que funciona bien. No hay que hacer nada más
 
-Sirve para realizar la conexión con: NextCloud, OwnCloud, Seafile, etc.
+Sirve para realizar la conexión con: FileBrowser Quantum, NextCloud, OwnCloud, Seafile, etc.
